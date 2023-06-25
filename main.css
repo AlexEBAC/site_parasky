@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Acme', sans-serif;
+  color: rgb(185, 168, 142);
+  width: 1280px;
+  margin: 0 auto;
+  background-image: url(./images/sol-entre-nuvens.jpg);
+  background-size: cover;
+}
+
+div li {
+  display: inline;
+  padding-left: 12px;
+}
+
+header {
+  height: 120px;
+}
+
+header li a {
+  text-decoration: none;
+  color: rgb(244, 134, 9);
+  padding: 6px;
+  margin: 0px;
+}
+
+header h1 {
+  padding-left: 120px;
+  color: rgb(244, 134, 9);
+}
+
+header li a:hover {
+  color: rgba(15, 14, 14, 0.7);
+  background-color: rgb(245, 51, 12);
+}
+
+.imagem_principal img {
+  width: 100%;
+}
+
+.imagem_principal {
+  height: 590px;
+}
+
+.imagem_principal p {
+  position: relative;
+  top: -350px;
+  left: 200px;
+  font-family: 'Acme', sans-serif;
+  font-size: 60px;
+  font-style: italic;
+  color: rgb(237, 225, 7);
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+header div {
+  background-image: url(./images/logo4.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 9.6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: rgb(56, 55, 68);
+  font-family: 'Russo One', sans-serif;
+  height: 120px;
+}
+
+.jumper {
+  width: 400px;
+  height: 140px;
+  overflow: hidden;
+  border: 2px solid #000;
+}
+
+.jumper img {
+  width: 120%;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+
+.jumper2 img {
+  width: 150px;
+}
+
+.jumper img:hover {  
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.article {
+  display: flex;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.aboutus {
+  background-color: blue;
+}
+
+.aboutus h2 {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.formulario{
+  padding: 12px ;
+}
+
+.paragraf p {
+  text-align: justify;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  margin-right: 8px;
+}
+
+.titulo {
+  background-image: url(./images/ceu_azul.jpg);
+  background-size: cover;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.titulo h2 {
+  color: rgb(1, 1, 17);
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.materia {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(./images/ceu_azul.jpg);
+  background-size: cover;
+}
+
+.curso {
+  width: 360px;
+}
+
+.cursos  {
+  width: 30%;
+  background-color: aquamarine;
+  padding: 12px;
+}
+
+.cursos .curso_livre {
+  width: 320px;
+  margin: 12px;
+  border: 2px solid #000;
+}
+
+.cursos h2 {
+  text-align: center;
+}
+
+.cursos p {
+  text-align: justify;
+}
+
+.contact {
+ width: 30%;
+ background-color: aquamarine;
+}
+
+.contact h2 {
+  padding: 12px;
+  background-color:aquamarine;
+  text-align: center;
+}
+
+.formulario {
+  background-color: aquamarine;
+}
+
+#question input{
+  display: inline;
+  margin: 4px;
+  margin-bottom: 16px;
+}
+
+.formulario form button, textarea, input
+{
+  padding: 6px;
+  color: blue;
+  background-color: beige;
+  font-family: 'Acme', sans-serif;
+}
+
+.formulario textarea {
+  resize: none;
+  height: 180px;
+  width: 150px;
+}
+
+.social-midia {
+  background-color: aquamarine;
+  width: 30%;
+  padding: 12px;
+}
+
+.social-midia h2 {
+ text-align: center;
+ margin-bottom: 8px;
+}
+
+.social-midia a{
+  padding-left: 12px;
+}
+
+.social-midia img {
+  width: 35px;
+}
+
+.social-midia .amizade {
+  width: 320px;
+  margin: 12px;
+  border: 2px solid #000;
+}
+
+.como_chegar{
+  background-color: rgb(15, 22, 40);
+  align-content: center;
+}
+.comochegar{
+  margin-top: 8px;
+}
+.como_chegar img {
+  width: 20px;
+}
+.como_chegar h3 {
+  text-align: center;
+}
+.dizeres_do_como_chegar {
+  display: flex;
+  justify-content: center;
+}
+
+.dizeres_do_como_chegar p {
+  border: 2px solid;
+  margin: 38px;
+  padding: 8px;
+  text-align: center;
+}
+
+.rodape {
+  display: flex;
+  margin-top: 8px;
+  background-color: #1e2765;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dizeres_do_rodape {
+  font-size: 14px;
+  margin: 10px 8px;
+}
+
+.rodape img {
+  width: 300px;
+  margin: 10px;
+}
